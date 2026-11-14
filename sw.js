@@ -1,6 +1,6 @@
 // Made by the build (tools/installable.ts). Keeps the game playable with no connection.
-const CACHE = 'lantern-lake-279515080aa7';
-const FILES = ["./","apple-touch-icon.png","assets/index-Cdoe0ybX.js","assets/phaser-C831z-fk.js","icon-192.png","icon-512.png","index.html","manifest.webmanifest"];
+const CACHE = 'lantern-lake-7baeee99974a';
+const FILES = ["./","apple-touch-icon.png","assets/index-jzJ4O1ZG.js","assets/phaser-C831z-fk.js","icon-192.png","icon-512.png","index.html","manifest.webmanifest"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()));
